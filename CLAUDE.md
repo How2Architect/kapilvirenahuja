@@ -10,6 +10,8 @@ This file provides guidance to Claude Code when working on this personal website
 ## GitHub Location and Rules
 - Repository: https://github.com/How2Architect/kapilvirenahuja.git
 - Branch Naming: All feature branches must use `/features/` prefix (e.g., `/features/user-authentication`)
+  - create a branch when preparing for commit if its not on an existing branch
+  - connect to github and capture this on an issue if you are not working on an issue already
 - Commit Standards: Conventional commit format required for all commits
   - Format: `type(scope): description`
   - Types: feat, fix, docs, style, refactor, test, chore
@@ -18,6 +20,8 @@ This file provides guidance to Claude Code when working on this personal website
   - Required code review from at least one team member
   - All CI/CD checks must pass
   - Use `gh` CLI for all GitHub operations (issues, PRs, releases)
+
+
 
 ## Architecture & Technology
 

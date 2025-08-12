@@ -6,7 +6,11 @@
       "Bash(cp:*)",
       "Bash(mkdir:*)",
       "Bash(rm:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "WebFetch(domain:www.libbypeterson.com)",
+      "Bash(gh auth:*)",
+      "Bash(gh repo view:*)",
+      "Bash(git checkout:*)"
     ],
     "deny": [],
     "ask": []
