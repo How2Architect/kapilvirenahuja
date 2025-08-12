@@ -20,6 +20,9 @@ This file provides guidance to Claude Code when working on this personal website
   - Required code review from at least one team member
   - All CI/CD checks must pass
   - Use `gh` CLI for all GitHub operations (issues, PRs, releases)
+- Bug fixing process
+  - should create a new branch for working on an issue. new branches must use `/issues/number/` prefix (e.g., `/issues/1` or `/issues/2`)
+- Do not refer yourself when creating commit messages
 
 
 
@@ -112,3 +115,7 @@ This file provides guidance to Claude Code when working on this personal website
 - Follow project patterns and existing component structure
 - Prioritize performance, accessibility, and user experience
 - Always run linting before creating pull requests
+
+## Priority levels
+- Mark an issue as High prioity and technical debt if it beeaches a technical guideline
+- Mark an issue as High priority and big if it breaches a functional requirement and is breaking major flows
