@@ -1,0 +1,27 @@
+{
+  "title": "About",
+  "paragraphs": [
+    "I specialize in transforming complex business challenges into scalable, elegant software solutions that drive real business value. My expertise is around Digital Experiences, creating enterprise architectures, and building high-performing engineering teams.",
+    "Throughout my career, I've led design and implementation of systems that handle massive scale while maintaining exceptional performance and reliability. I believe in the power of well-architected solutions to transform businesses and create meaningful impact.",
+    "In recent times, I'm leading strategy and transformation initiaves and helping CXOs drive change within their organisation.",
+    "When I'm not architecting systems, you'll find me mentoring developers, speaking at conferences, and contributing to the open-source community."
+  ],
+  "stats": [
+    {
+      "value": "20+",
+      "label": "Years Experience"
+    },
+    {
+      "value": "$200M+",
+      "label": "Revenue Impact"
+    },
+    {
+      "value": "50+",
+      "label": "Teams Transformed"
+    },
+    {
+      "value": "25+",
+      "label": "Transformations Led"
+    }
+  ]
+}

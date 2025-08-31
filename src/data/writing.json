@@ -1,0 +1,29 @@
+{
+  "title": "Writing",
+  "articles": [
+    {
+      "id": 1,
+      "title": "The CTO's Dilemma: Competing on AI When Everyone Has the Same Models",
+      "description": "As we push forward, Altman’s vision of self-improving systems looms on the horizon. When our models can test hypotheses, retrain themselves on new data, and propose novel architectures, the game changes again. But even then, the three pillars (data, UX, integration) will remain central. Because at the end of the day, humans still decide what data matters, which experiences delight, and how tightly technology fits into our workflows.",
+      "date": "August 10, 2025",
+      "readTime": "8 min read",
+      "link": "https://howtoarchitect.io/the-ctos-dilemma-competing-on-ai-when-everyone-has-the-same-models-33c593256ac9"
+    },
+    {
+      "id": 2,
+      "title": "GraphRAG: A strategic architectural guide for modern AI systems",
+      "description": "GraphRAG represents a fundamental evolution in how we architect AI-powered information systems. The technology’s rapid maturation, marked by Microsoft’s production release and growing enterprise adoption, signals its readiness for strategic deployment. Even though the implementation challenges around cost, scalability, and complexity remain significant, the benefits will outweigh them for appropriate use cases.",
+      "date": "July 22, 2025",
+      "readTime": "6 min read",
+      "link": "https://medium.com/how-to-architect/graphrag-a-strategic-architectural-guide-for-modern-ai-systems-13555873fe2e"
+    },
+    {
+      "id": 2,
+      "title": "CTO Playbook for AI-Native SDLC: The Landscape",
+      "description": "The future of work in software engineering isn’t about humans versus machines. It’s about humans collaborating with machines that now handle significant cognitive tasks (at least till 2027). The organizations that succeed will be the ones that stop treating AI like a fancy autocomplete and start integrating it as a vital team member. In a few years, companies maintaining a human-only SDLC will seem as outdated as teams hand-deploying code via FTP in 2005. The shift is unavoidable. As a technology leader, the question for you is whether you’ll shape… or be shaped by it.",
+      "date": "August 19, 2025",
+      "readTime": "6 min read",
+      "link": "https://medium.com/codetodeploy/cto-playbook-for-ai-native-sdlc-the-landscape-c6933d395d89"
+    }
+  ]
+}

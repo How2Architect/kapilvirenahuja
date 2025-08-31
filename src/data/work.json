@@ -1,0 +1,25 @@
+{
+  "title": "What I Do",
+  "services": [
+    {
+      "title": "Digital Experience Transformation",
+      "description": "Transform customer journeys through innovative digital experiences, leveraging modern architectures and emerging technologies to create seamless, engaging user interactions across all touchpoints."
+    },
+    {
+      "title": "AI-Native Solutions",
+      "description": "Design and implement AI-powered systems that leverage machine learning, natural language processing, and intelligent automation to drive business value and enhance decision-making capabilities."
+    },
+    {
+      "title": "Team Leadership",
+      "description": "Build and scale high-performing engineering organizations through strategic hiring, mentorship programs, and fostering a culture of innovation, collaboration, and continuous learning."
+    },
+    {
+      "title": "Technical Strategy",
+      "description": "Develop comprehensive technology roadmaps that align with business goals, evaluate emerging technologies, and guide organizations through digital transformation initiatives."
+    },
+    {
+      "title": "Innovation",
+      "description": "Drive organizational innovation through rapid prototyping, proof-of-concepts, and establishing innovation frameworks that turn ideas into market-ready solutions."
+    }
+  ]
+}

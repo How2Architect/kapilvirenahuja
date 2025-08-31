@@ -1,0 +1,21 @@
+{
+  "title": "Speaking & Events",
+  "events": [
+    {
+      "id": 1,
+      "title": "Acquia Engage 2025",
+      "topic": "Transforming Global Passenger Journeys with Arriva and Acquia Site Studio",
+      "description": "We speak about how Nagarro & Arriva collaboration dramatically minimized developer dependencies, empowered lean marketing.",
+      "date": "May, 2025",
+      "location": "London, UK"
+    },
+    {
+      "id": 2,
+      "title": "IEEE",
+      "topic": "Innovation: AI That Works While You Sleep",
+      "description": "Exploring the future of work and career with AI",
+      "date": "August, 2024",
+      "location": "Delhi, IN"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Contribuing to the future of software architecture, one person at a time.",
+  "subtitle": "I'm Kapil Viren Ahuja, Partner Director by title, CTO by craft, Innovator by DNA and Mentor by Choice. I have honed my craft over two decades of  designing experiences and implementing enterprise-scale systems that power millions of users worldwide.",
+  "buttons": [
+    {
+      "text": "View My Work",
+      "href": "#work",
+      "variant": "primary"
+    },
+    {
+      "text": "Get In Touch",
+      "href": "#contact",
+      "variant": "secondary"
+    }
+  ]
+}

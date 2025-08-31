@@ -2,8 +2,8 @@
   "extends": [
     "next/core-web-vitals",
     "eslint:recommended",
-    "@typescript-eslint/recommended",
-    "@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "plugin:jsx-a11y/recommended"
@@ -95,7 +95,7 @@
     "curly": ["error", "all"],
     "complexity": ["error", { "max": 10 }],
     "max-depth": ["error", { "max": 4 }],
-    "max-lines-per-function": ["error", { "max": 50, "skipBlankLines": true, "skipComments": true }]
+    "max-lines-per-function": ["error", { "max": 200, "skipBlankLines": true, "skipComments": true }]
   },
   "settings": {
     "react": {

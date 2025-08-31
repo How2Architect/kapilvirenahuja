@@ -12,12 +12,6 @@ const nextConfig = {
   
   // Enable experimental features
   experimental: {
-    // Enable Server Components
-    appDir: true,
-    
-    // Optimize fonts
-    optimizeFonts: true,
-    
     // Enable modern bundling
     esmExternals: true,
   },

@@ -1,4 +1,17 @@
 import { useState, useEffect } from 'react'
+import Link from 'next/link'
+
+const MobileMenu = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) => (
+  <div className={`mobile-menu ${isOpen ? 'open' : ''}`}>
+    <ul className="mobile-menu-links">
+      <li><a href="#about" className="nav-link" onClick={onClose}>About</a></li>
+      <li><a href="#work" className="nav-link" onClick={onClose}>Work</a></li>
+      <li><a href="#writing" className="nav-link" onClick={onClose}>Writing</a></li>
+      <li><a href="#speaking" className="nav-link" onClick={onClose}>Speaking</a></li>
+      <li><a href="#contact" className="nav-link" onClick={onClose}>Contact</a></li>
+    </ul>
+  </div>
+)
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -18,9 +31,9 @@ export default function Navigation() {
       <nav className={`nav ${isScrolled ? 'scrolled' : ''}`}>
         <div className="container">
           <div className="nav-content">
-            <a href="#" className="nav-logo">
+            <Link href="/" className="nav-logo">
               Kapil Viren Ahuja
-            </a>
+            </Link>
             
             <ul className="nav-links">
               <li><a href="#about" className="nav-link">About</a></li>
@@ -47,15 +60,7 @@ export default function Navigation() {
         </div>
       </nav>
 
-      <div className={`mobile-menu ${isMobileMenuOpen ? 'open' : ''}`}>
-        <ul className="mobile-menu-links">
-          <li><a href="#about" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>About</a></li>
-          <li><a href="#work" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>Work</a></li>
-          <li><a href="#writing" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>Writing</a></li>
-          <li><a href="#speaking" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>Speaking</a></li>
-          <li><a href="#contact" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>Contact</a></li>
-        </ul>
-      </div>
+      <MobileMenu isOpen={isMobileMenuOpen} onClose={() => setIsMobileMenuOpen(false)} />
     </>
   )
 }
